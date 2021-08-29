@@ -1,0 +1,44 @@
+
+@media only screen and (max-width: 1010px) { 
+  .dpl_v1 {
+    display: none !important;}
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 860px) { 
+  .dpl_v2 {
+    display: none !important;}
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 770px) { 
+  .dpl_v3 {
+    display: none !important;}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 580px) { 
+  .dpl_v4, .dpl_v5 {
+    display: none !important;}
+
+
+
+
+  }
