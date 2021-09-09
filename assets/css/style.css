@@ -1036,11 +1036,11 @@ font {
 .gallery-content {
   height: 238px;
   overflow: hidden;
-  background-image: url(../img/Gia-Dinh/hoa-hiep/Phao-va-bong.jpg);
+  background-image: url(../img/Gia-Dinh/hoa-hiep/Phao-va-b.png);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.75;
+  opacity: 0.8;
 }
 .block-gallery img {
   margin-top: 5px;
