@@ -1,6 +1,7 @@
 
 (function ($) {
 
+
     "use strict";
 
     var fullHeight = function () {
@@ -12,6 +13,7 @@
 
     };
     fullHeight();
+
 
     var carousel = function () {
         $('.featured-carousel').owlCarousel({

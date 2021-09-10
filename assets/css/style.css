@@ -229,8 +229,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   padding: 0;
 }
-samp {
+#navbar .color-red {
   color: rgba(255, 0, 0, 0.794);
+}
+#navbar .color-red:hover {
+  color: #106eea;
 }
 .navbar ul {
   margin: 0;
@@ -1085,7 +1088,7 @@ font {
 }
 .preface-text {
   color: #000080;;
-  font-size: 18px;
+  font-size: 1.2em;
   font-style: italic;
   font-family: serif;
   text-indent: 55px;
@@ -1175,8 +1178,52 @@ font {
     display: none !important;
   }
 }
+@media (max-width: 768px) {
+  #main #newstoday {
+    margin-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;;
+  }
+  .newstoday-center {
+    padding: 0;
+  }
+.newstoday-content {
+  height: 35vh;
+}
+.preface-category {
+  height: 75%;
+}
+#history .preface-content{
+  height: 14em;
+}
+#history .color-white,
+#history .category-title {
+  font-size: .9em;
+}
 
-
+.newstoday-content .preface-title {
+  padding-top: 12.5%;
+}
+.preface-img {
+  height: 100%;
+  width: 100%;
+}
+.preface-text {
+  font-size: 0.9em;
+}
+.siderbar-category {
+  display: none;
+}
+.newstoday-center #history {
+  height: 45vh;
+}
+#history .preface-category {
+  height: 100%;
+}
+#header .logo {
+  font-size: 16px;
+}
+}
 
 
 
@@ -1358,6 +1405,12 @@ font {
     height: auto;
   }}
 
+.glightbox-clean .gdesc-inner .gslide-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #106eea;
+  font-size: 1.5em;
+}
 
 
 /*--------------------------------------------------------------
@@ -1783,8 +1836,8 @@ font {
 }
 
 .pricing .featured h3 {
-  color: #fff;
-  background: #106eea;
+  color: rgb(197, 17, 17);
+  /* background: #106eea; */
 }
 
 .pricing .advanced {
@@ -2176,6 +2229,29 @@ font {
   }
 .col-xs-12 {
   width: 100%;
+}
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#main #about {
+  padding-bottom: 80px ;
+}
+.section-title h3 {
+  font-size: 1.5em;
+}
+.section-title p {
+  font-size: 1em;
+}
+#thuvienanh,
+.team, .faq {
+  padding: 40px 0;
+}
+.clients {
+  padding-bottom: 40px;
+}
+.team .member {
+  flex: 1;
 }
 }
 span {
